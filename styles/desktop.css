@@ -41,6 +41,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.nav__links{
+    margin-right: 2rem;
+}
 .nav__link{
     color: #111;
     text-decoration: none;
@@ -76,4 +79,18 @@ body{
     font-size: 25px;
     margin: 0 auto;
     width: 90%;
+}
+
+
+/* responsive 992px */
+@media screen and (max-width: 992px) {
+    .nav__logo{
+        margin-left: 8rem;
+    }
+    .nav__links{
+        margin-right: 5rem;
+    }
+    .hero__main{
+        min-width: 100%;
+    }
 }
